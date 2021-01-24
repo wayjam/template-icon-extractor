@@ -1,0 +1,42 @@
+{
+  "name": "template-icon-extractor",
+  "version": "1.0.0",
+  "description": "Extract icon from a group of template and save to a separate file.",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "dev": "ts-node-dev src/cli.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["dist/**/*.js"],
+  "bin": {
+    "template-icon-extractor": "dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayjam/template-icon-extractor.git"
+  },
+  "author": "WayJam So",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wayjam/template-icon-extractor/issues"
+  },
+  "homepage": "https://github.com/wayjam/template-icon-extractor#readme",
+  "dependencies": {
+    "camelcase": "^6.2.0",
+    "chalk": "^4.1.0",
+    "feather-icons": "^4.28.0",
+    "htmlparser2": "^6.0.0",
+    "ionicons": "^5.3.0",
+    "yargs": "^16.2.0"
+  },
+  "optionalDependencies": {
+    "feather-icons": "^4.28.0",
+    "ionicons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/feather-icons": "^4.7.0",
+    "@types/node": "^14.14.22",
+    "@types/yargs": "^15.0.12"
+  }
+}
