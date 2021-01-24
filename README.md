@@ -20,7 +20,7 @@ Options:
 
 ### Hugo
 
-After generated icon template, you can use it like:
+You can write icon in the template like below, then run this cli to generated inline-svg:
 
 ```
 {{ partial "icons" "logo-twitter" }}
